@@ -17,24 +17,33 @@ var About = (props) => {
       <div className="row">
         <div className="medium-4 columns">
           <div className="card">
+            <div className="card-divider">
+              <h5><a href="https://github.com/andrewjmead/react-course-weather-app">React Course Weather App</a></h5>
+            </div>
+
             <div className="card-section">
-              <Link to="https://github.com/andrewjmead/react-course-weather-app">React Course Weather App</Link>
               <p>Original Github repo for app.</p>
             </div>
           </div>
         </div>
         <div className="medium-4 columns">
           <div className="card">
+            <div className="card-divider">
+              <h5><a href="https://facebook.github.io/react/">Learn about React.js</a></h5>
+            </div>
+
             <div className="card-section">
-              <Link to="https://facebook.github.io/react/">Learn about React.js</Link>
               <p>A JS Library for building User Interfaces created by Facebook.</p>
             </div>
           </div>
         </div>
         <div className="medium-4 columns">
           <div className="card">
+            <div className="card-divider">
+                <h5><a href="https://openweathermap.org/">Open Weather Map API</a></h5>
+            </div>
+            
             <div className="card-section">
-              <Link to="https://openweathermap.org/">Open Weather Map API</Link>
               <p>The API we use to gather weather data.</p>
             </div>
           </div>
