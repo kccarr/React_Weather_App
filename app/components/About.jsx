@@ -11,7 +11,11 @@ var React = require('react');
 
 var About = (props) => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h3>About</h3>
+      <p>Welcome to the About page. This app looks you know the local weather for any city you type in!</p>
+    </div>
+
   );
 };
 
