@@ -1,6 +1,8 @@
-$space-large: 10.5rem;
+$space-large: 2.5rem;
+$header-color: rgb(66, 235, 244);
 
 .page-title {
+  color: $header-color;
   margin-top: $space-large;
   margin-bottom: $space-large;
 }
