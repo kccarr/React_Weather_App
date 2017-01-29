@@ -12,7 +12,7 @@ var {Link} = require('react-router');
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
 
       <div className="row">
         <div className="medium-4 columns">
@@ -42,7 +42,7 @@ var About = (props) => {
             <div className="card-divider">
                 <h5><a href="https://openweathermap.org/">Open Weather Map API</a></h5>
             </div>
-            
+
             <div className="card-section">
               <p>The API we use to gather weather data.</p>
             </div>
